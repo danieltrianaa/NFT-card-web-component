@@ -29,21 +29,87 @@
 
 :root {
 	/* Primary */
-	--soft-blue: hsl(215, 51%, 70%);
+	--soft-blue: hsl(218, 50%, 80%);
 	--cyan: hsl(178, 100%, 50%);
 
 	/* Neutral */
-	--body-bg: hsl(217, 54%, 11%);
-	--card-bg: hsl(216, 50%, 16%);
+	--body-bg: hsl(217, 55%, 10%);
+	--card-bg: hsl(214, 50%, 16%);
 	--line: hsl(215, 32%, 27%);
 	--white: hsl(0, 0%, 100%);
 }
 
+*, *::after, *::before {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
 html {
 	font-size: 62.5%;
+	color: hsl(215, 32%, 66%);
 }
 
 body {
+	display: grid;
+	min-height: 100vh;
+	grid-template-rows: 1fr auto;
+
+	width: 88%;
+	margin: 0 auto;
+
+	color: white;
 	font-family: "Outfit", serif;
-	font-size: 1.8rem; /* 18px paragraph */
+	background-color: var(--body-bg);
+}
+
+main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.card {
+	max-width: 328px;
+	padding: 24px;
+	border-radius: 16px;
+	background-color: var(--card-bg);
+}
+
+.title {
+	width: fit-content;
+	margin-bottom: 12px;
+	font-size: 2.2rem;
+	font-weight: 600;
+	color: var(--white);
+	letter-spacing: 0.5px;
+}
+
+.description {
+	font-size: 1.6rem;
+	font-weight: 300;
+	color: var(--soft-blue);
+}
+
+.price {
+	font-size: 1.4rem;
+	font-weight: 600;
+	color: var(--cyan);
+	letter-spacing: 0.5px;
+}
+
+.time {
+	font-size: 1.4rem;
+	font-weight: 300;
+	color: var(--soft-blue);
+}
+
+.credits {
+	font-size: 1.4rem;
+	font-weight: 300;
+	color: var(--soft-blue);
+}
+
+.user-name {
+	color: var(--white);
 }
