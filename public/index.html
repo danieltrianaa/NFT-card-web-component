@@ -10,10 +10,12 @@ Falta añadirle IMG (banner) a OP y Twitter.
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>NFT preview card component</title>
 
-		<link rel="preload" href="/public/assets/fonts/fonts.woff2" as="font" type="font/woff2" crossorigin>
+		<link rel="preload" href="./assets/fonts/fonts.woff2" as="font" type="font/woff2" crossorigin>
 
-		<link rel="stylesheet" href="/src/main.css">
-		<script src="/src/NFTCard.js" defer></script>
+		<!-- <link rel="preload" href="./assets/images/image-equilibrium.webp" as="image" type="image/webp"> -->
+
+		<link rel="stylesheet" href="./main.css">
+		<script src="./NFTCard.js" defer></script>
 
 		<link rel="icon" type="image/x-icon" href="./assets/icons/favicons/github-logo.ico" sizes="any">
 		<link rel="icon" type="image/svg+xml" href="./assets/icons/favicons/github-logo.svg">
@@ -55,10 +57,11 @@ Falta añadirle IMG (banner) a OP y Twitter.
 	<body>
 		<main>
 			<section class="card">
-				<div class="blue-layer">
-					<img class="nft-img" src="./assets/images/image-equilibrium.jpg" alt="Equilibrium NFT image">
+				<div class="nft-img-container">
+					<img width="1" height="1" class="nft-img" src="./assets/images/image-equilibrium.webp" alt="Equilibrium NFT image">
+
 					<div class="eye-icon">
-						<img src="./assets/icons/icon-view.svg" alt="Eye icon">
+						<img width="1" height="1" src="./assets/icons/icon-view.svg" alt="Eye icon">
 					</div>
 				</div>
 
@@ -70,14 +73,14 @@ Falta añadirle IMG (banner) a OP y Twitter.
 				<section class="nft-info">
 					<div class="ntf__flex-wraper ntf__flex-wraper--eth">
 						<div class="ethereum-icon">
-							<img src="./assets/icons/icon-ethereum.svg" alt="Ethereum icon">
+							<img width="11" height="18" src="./assets/icons/icon-ethereum.svg" alt="Ethereum icon">
 						</div>
 						<p class="price">0.041 ETH</p>
 					</div>
 
 					<div class="ntf__flex-wraper ntf__flex-wraper--clock">
 						<div class="clock-icon">
-							<img src="./assets/icons/icon-clock.svg" alt="Clock icon">
+							<img width="1" height="1" src="./assets/icons/icon-clock.svg" alt="Clock icon">
 						</div>
 						<p class="time">3 days left</p>
 					</div>
@@ -87,15 +90,19 @@ Falta añadirle IMG (banner) a OP y Twitter.
 
 				<section class="nft-creator">
 					<div class="user-profile-img">
-						<img src="./assets/images/image-avatar.png" alt="User profile picture">
+						<img width="1" height="1" src="./assets/images/image-avatar.webp" alt="User profile picture">
 					</div>
 					<p class="credits">Creation of <span class="user-name">Jules Wyvern</span></p>
 				</section>
 			</section>
 		</main>
 
-		<footer>
-			<p>Coded by <a href="#">@dtriana18</a>.</p>
+		<footer class="footer">
+			<p>Coded by
+				<a class="github-link" href="https://github.com/dtriana18" target="_blank">
+					@dtriana18
+				</a>
+			</p>
 		</footer>
 	</body>
 

@@ -5,7 +5,7 @@
 	font-style: normal;
 	font-weight: 300;
 	font-display: swap;
-	src: url(/public/assets/fonts/fonts.woff2) format("woff2");
+	src: url(./assets/fonts/fonts.woff2) format("woff2");
 	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
@@ -14,7 +14,7 @@
 	font-style: normal;
 	font-weight: 400;
 	font-display: swap;
-	src: url(/public/assets/fonts/fonts.woff2) format("woff2");
+	src: url(./assets/fonts/fonts.woff2) format("woff2");
 	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
@@ -23,7 +23,7 @@
 	font-style: normal;
 	font-weight: 600;
 	font-display: swap;
-	src: url(/public/assets/fonts/fonts.woff2) format("woff2");
+	src: url(./assets/fonts/fonts.woff2) format("woff2");
 	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
@@ -61,11 +61,14 @@ body {
 	font-family: "Outfit", serif;
 	background-color: var(--body-bg);
 	letter-spacing: 0.4px;
+
+	/* cursor: default; */
 }
 
 img {
 	display: block;
 	width: 100%;
+	height: auto;
 }
 
 /* LAYOUT SECTION */
@@ -79,27 +82,80 @@ main {
 .card {
 	width: min(100%, 328px);
 	padding: 24px 28px;
-	border-radius: 8px;
+	border-radius: 12px;
 	background-color: var(--card-bg);
 }
 
 /* IMAGE SECTION */
 
+.nft-img-container {
+	position: relative;
+	margin-bottom: 28px;
+	cursor: pointer;
+}
+
+/* CYAN LAYER */
+.nft-img-container::after {
+	will-change: opacity;
+	content: '';
+
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+
+	border-radius: 12px;
+	background-color: var(--cyan);
+	opacity: 0;
+
+	transition: opacity 250ms ease-in-out;
+}
+
+.nft-img-container:hover::after {
+	opacity: 0.6;
+}
+
 .nft-img {
-	border-radius: 8px;
+	border-radius: 12px;
 }
 
 .eye-icon {
-	width: 24px;
+	will-change: opacity;
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	width: 42px;
+	z-index: 999;
+
+	opacity: 0;
+	transition: opacity 250ms ease-in-out;
+}
+
+.nft-img-container:hover .eye-icon {
+	opacity: 1;
 }
 
 /* TITLE AND DESCRIPTION SECTION */
 
 .title {
+	will-change: color;
+
+	width: fit-content;
 	margin-bottom: 12px;
 	font-size: 2.2rem;
 	font-weight: 600;
 	color: var(--white);
+
+	cursor: pointer;
+	transition: color 250ms ease-in-out;
+}
+
+.title:hover {
+	color: var(--cyan);
 }
 
 .description {
@@ -137,7 +193,7 @@ main {
 
 .clock-icon {
 	width: 18px;
-	margin-right: 8px;
+	margin-right: 6px;
 }
 
 .time {
@@ -159,6 +215,7 @@ main {
 .nft-creator {
 	display: flex;
 	align-items: center;
+	margin-bottom: 8px;
 }
 
 .user-profile-img {
@@ -174,5 +231,50 @@ main {
 }
 
 .user-name {
+	will-change: color;
+
 	color: var(--white);
+	cursor: pointer;
+	transition: color 250ms ease-in-out;
+}
+
+.user-name:hover {
+	color: var(--cyan);
+}
+
+.footer {
+	text-align: center;
+	font-size: 1.6rem;
+	padding: 24px 0;
+	color: var(--soft-blue);
+}
+
+.github-link {
+	position: relative;
+	padding: 6px 0;
+	color: white;
+	text-decoration: none;
+}
+
+.github-link::after {
+	will-change: transform;
+
+	content: '';
+
+	position: absolute;
+	bottom: 0px;
+	left: 0;
+
+	width: 100%;
+	height: 2px;
+	transform: scaleX(0);
+	transform-origin: center;
+
+	background-color: rgb(255, 255, 255);
+
+	transition: transform 250ms ease-in-out;
+}
+
+.github-link:hover::after {
+	transform: scaleX(90%);
 }
