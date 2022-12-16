@@ -25,4 +25,3 @@ Insert Screen shoot
 
 I learned a lot about meta tags, OpenGraph and Twitter Cards
 Grid and flex box
-
