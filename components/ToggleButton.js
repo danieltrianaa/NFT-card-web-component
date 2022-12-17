@@ -1,10 +1,10 @@
 const HTML = `
-    <p id="leftWord">Show</p>
+    <p id="leftWord"></p>
     <div>
         <input id="toggle" class="checkbox" type="checkbox">
         <label class="toggle__bar" for="toggle"></label>
     </div>
-    <p id="rightWord">Hide</p>
+    <p id="rightWord"></p>
 `;
 
 const CSS = `
