@@ -1,2 +1,4 @@
 import {} from "./components/NFTCard.js"
-import {} from "./components/ToggleButton.js"
+import {ToggleButton} from "./components/ToggleButton.js"
+
+window.customElements.define("toggle-button", ToggleButton);

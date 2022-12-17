@@ -30,3 +30,5 @@ Lazy loading
 Custom properties
 Vite
 Netlify
+POO
+Bind, call , apply
