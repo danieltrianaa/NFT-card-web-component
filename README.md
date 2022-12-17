@@ -20,6 +20,7 @@ Insert Screen shoot
 - HTML
 - CSS
 - Vanilla JavaScript
+- ViteJS
 
 ## Learned
 
@@ -27,3 +28,5 @@ I learned a lot about meta tags, OpenGraph and Twitter Cards
 Grid and flex box
 Lazy loading
 Custom properties
+Vite
+Netlify

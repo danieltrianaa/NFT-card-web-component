@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- 
+Falta añadirle la url canonical, a OP y Twitter.
+Falta añadirle IMG (banner) a OP y Twitter.
+-->
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>NFT preview card component</title>
+
+		<link rel="preload" href="/fonts/Outfit.woff2" as="font" type="font/woff2" crossorigin>
+
+		<!-- <link rel="preload" href="/images/image-equilibrium.webp" as="image" type="image/webp"> -->
+
+    <link rel="stylesheet" href="./style.css">
+		<script type="module" src="./NFTCard.js" defer></script>
+
+		<link rel="icon" type="image/x-icon" href="/icons/favicons/github-logo.ico" sizes="any">
+		<link rel="icon" type="image/svg+xml" href="/icons/favicons/github-logo.svg">
+		<link rel="apple-touch-icon" type="image/png" href="/icons/favicons/github-logo-180x180.png" sizes="180x180">
+		<link rel="manifest" href="/manifest.webmanifest">
+
+		<!-- FALTA!!!! -->
+		<link rel="canonical" href="https://companyname.com">
+		<meta name="description" content="Frontend Mentor's 'NFT preview card component' challenge solution">
+		<meta name="keywords" content="Frontend Mentors, NFT, card, component, web component, challenge, solution" />
+		<meta name="author" content="Daniel Triana, @dtriana18 (Github)" />
+		<meta name="copyright" content="Daniel Triana, @dtriana18 (Github)" />
+		<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+
+		<meta property="og:locale" content="es_US">
+		<meta property="og:type" content="website">
+		<meta property="og:site_name" content="NFT preview card component">
+		<!-- FALTA!!!! -->
+		<meta property="og:url" content="https://engagemassive.com/">
+		<meta property="og:title" content="NFT preview card component">
+		<meta property="og:description" content="Check the Frontend Mentor's challenge solution">
+		<!-- FALTA!!!! -->
+		<meta property="og:image" content="https://engagemassive.com/wp-content/uploads/2020/09/Christina-newsletter-signup.jpg">
+		<meta property="og:image:type" content="image/jpeg">
+		<meta property="og:image:width" content="1000">
+		<meta property="og:image:height" content="842">
+
+		<meta name="twitter:card" content="summary_large_image">
+		<!-- <meta name="twitter:site" content="@nytimesbits" /> -->
+		<!-- <meta name="twitter:creator" content="@nickbilton" /> -->
+		<meta name="twitter:title" content="NFT preview card component">
+		<meta name="twitter:description" content="Check the Frontend Mentor's challenge solution">
+		<!-- FALTA!!!! -->
+		<meta property="og:url" content="http://bits.blogs.nytimes.com/2011/12/08/a-twitter-for-my-sister/" />
+		<!-- FALTA!!!! -->
+		<meta name="twitter:image" content="https://engagemassive.com/wp-content/uploads/2020/09/Christina-newsletter-signup.jpg">
+	</head>
+
+	<body>
+    <div class="wrap-toggle">
+      <p>Show</p>
+      <div>
+        <input type="checkbox" id="toggle" class="offscreen" />
+        <label for="toggle" class="switch"></label>
+      </div>
+      <p>Hide</p>
+    </div>
+
+		<main class="cards-container">
+        <section class="card">
+          <div class="nft-img-container">
+            <img width="1" height="1" class="nft-img" src="/images/image-equilibrium.webp" alt="Equilibrium NFT image">
+
+            <div class="eye-icon">
+              <img width="1" height="1" src="/icons/icon-view.svg" alt="Eye icon">
+            </div>
+          </div>
+
+          <h1 class="title">Equilibrium #3429</h1>
+          <p class="description">
+            Our Equilibrium collection promotes balance and calm.
+          </p>
+
+          <section class="nft-info">
+            <div class="ntf__flex-wraper ntf__flex-wraper--eth">
+              <div class="ethereum-icon">
+                <img width="11" height="18" src="/icons/icon-ethereum.svg" alt="Ethereum icon">
+              </div>
+              <p class="price">0.041 ETH</p>
+            </div>
+
+            <div class="ntf__flex-wraper ntf__flex-wraper--clock">
+              <div class="clock-icon">
+                <img width="1" height="1" src="/icons/icon-clock.svg" alt="Clock icon">
+              </div>
+              <p class="time">3 days left</p>
+            </div>
+          </section>
+
+          <div class="divider"></div>
+
+          <section class="nft-creator">
+            <div class="user-profile-img">
+              <img width="1" height="1" src="/images/image-avatar.webp" alt="User profile picture">
+            </div>
+            <p class="credits">Creation of <span class="user-name">Jules Wyvern</span></p>
+          </section>
+        </section>
+
+         
+        <section class="card">
+          <div class="nft-img-container">
+            <img width="1" height="1" class="nft-img" src="/images/image-equilibrium.webp" alt="Equilibrium NFT image">
+
+            <div class="eye-icon">
+              <img width="1" height="1" src="/icons/icon-view.svg" alt="Eye icon">
+            </div>
+          </div>
+
+          <h1 class="title">Equilibrium #3429</h1>
+          <p class="description">
+            Our Equilibrium collection promotes balance and calm.
+          </p>
+
+          <section class="nft-info">
+            <div class="ntf__flex-wraper ntf__flex-wraper--eth">
+              <div class="ethereum-icon">
+                <img width="11" height="18" src="/icons/icon-ethereum.svg" alt="Ethereum icon">
+              </div>
+              <p class="price">0.041 ETH</p>
+            </div>
+
+            <div class="ntf__flex-wraper ntf__flex-wraper--clock">
+              <div class="clock-icon">
+                <img width="1" height="1" src="/icons/icon-clock.svg" alt="Clock icon">
+              </div>
+              <p class="time">3 days left</p>
+            </div>
+          </section>
+
+          <div class="divider"></div>
+
+          <section class="nft-creator">
+            <div class="user-profile-img">
+              <img width="1" height="1" src="/images/image-avatar.webp" alt="User profile picture">
+            </div>
+            <p class="credits">Creation of <span class="user-name">Jules Wyvern</span></p>
+          </section>
+        </section>
+
+        <section class="card">
+          <div class="nft-img-container">
+            <img width="1" height="1" class="nft-img" src="/images/image-equilibrium.webp" alt="Equilibrium NFT image">
+
+            <div class="eye-icon">
+              <img width="1" height="1" src="/icons/icon-view.svg" alt="Eye icon">
+            </div>
+          </div>
+
+          <h1 class="title">Equilibrium #3429</h1>
+          <p class="description">
+            Our Equilibrium collection promotes balance and calm.
+          </p>
+
+          <section class="nft-info">
+            <div class="ntf__flex-wraper ntf__flex-wraper--eth">
+              <div class="ethereum-icon">
+                <img width="11" height="18" src="/icons/icon-ethereum.svg" alt="Ethereum icon">
+              </div>
+              <p class="price">0.041 ETH</p>
+            </div>
+
+            <div class="ntf__flex-wraper ntf__flex-wraper--clock">
+              <div class="clock-icon">
+                <img width="1" height="1" src="/icons/icon-clock.svg" alt="Clock icon">
+              </div>
+              <p class="time">3 days left</p>
+            </div>
+          </section>
+
+          <div class="divider"></div>
+
+          <section class="nft-creator">
+            <div class="user-profile-img">
+              <img width="1" height="1" src="/images/image-avatar.webp" alt="User profile picture">
+            </div>
+            <p class="credits">Creation of <span class="user-name">Jules Wyvern</span></p>
+          </section>
+        </section>
+
+        <section class="card">
+          <div class="nft-img-container">
+            <img width="1" height="1" class="nft-img" src="/images/image-equilibrium.webp" alt="Equilibrium NFT image">
+
+            <div class="eye-icon">
+              <img width="1" height="1" src="/icons/icon-view.svg" alt="Eye icon">
+            </div>
+          </div>
+
+          <h1 class="title">Equilibrium #3429</h1>
+          <p class="description">
+            Our Equilibrium collection promotes balance and calm.
+          </p>
+
+          <section class="nft-info">
+            <div class="ntf__flex-wraper ntf__flex-wraper--eth">
+              <div class="ethereum-icon">
+                <img width="11" height="18" src="/icons/icon-ethereum.svg" alt="Ethereum icon">
+              </div>
+              <p class="price">0.041 ETH</p>
+            </div>
+
+            <div class="ntf__flex-wraper ntf__flex-wraper--clock">
+              <div class="clock-icon">
+                <img width="1" height="1" src="/icons/icon-clock.svg" alt="Clock icon">
+              </div>
+              <p class="time">3 days left</p>
+            </div>
+          </section>
+
+          <div class="divider"></div>
+
+          <section class="nft-creator">
+            <div class="user-profile-img">
+              <img width="1" height="1" src="/images/image-avatar.webp" alt="User profile picture">
+            </div>
+            <p class="credits">Creation of <span class="user-name">Jules Wyvern</span></p>
+          </section>
+        </section>
+       
+		</main>
+
+		<footer class="footer">
+			<p>Coded by
+				<a class="github-link" href="https://github.com/dtriana18" target="_blank">
+					@dtriana18
+				</a>
+			</p>
+		</footer>
+	</body>
+
+</html>
