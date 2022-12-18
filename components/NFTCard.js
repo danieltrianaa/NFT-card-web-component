@@ -57,6 +57,8 @@ const CSS = `
     :host {
         display: block;
         width: fit-content;
+        --img-filter: blur(0px);
+        --eye-opacity: 0;
     }
 
     img {
@@ -108,7 +110,7 @@ const CSS = `
         will-change: filter;
     
         border-radius: 12px;
-        filter: blur(15px);
+        filter: var(--img-filter);
         transition: filter 250ms;
         object-fit: cover;
     }
@@ -121,7 +123,7 @@ const CSS = `
     
         width: 42px;
     
-        opacity: 1;
+        opacity: var(--eye-opacity);
         transition: opacity 250ms;
     }
     

@@ -107,6 +107,11 @@ img {
 	margin: 42px 0;
 }
 
+nft-card {
+	--img-filter: blur(0px);
+	--eye-opacity: 0;
+}
+
 /* >>>>>>>>>> FOOTER <<<<<<<<<< */
 
 .footer {

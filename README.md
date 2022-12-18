@@ -31,4 +31,8 @@ Custom properties
 Vite
 Netlify
 POO
+this keyword
+setter and getters
 Bind, call , apply
+Life cycle of a component
+Optimization tricks, boxshadow, local fonts
