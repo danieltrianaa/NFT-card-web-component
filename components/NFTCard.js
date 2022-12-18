@@ -1,7 +1,7 @@
 const HTML = `
 <section class="card">
     <div class="nft-img-container">
-        <img width="1" height="1" class="nft-img" src="" alt="Illustration image">
+        <img class="nft-img" src="" alt="Illustration image">
 
         <div class="eye-icon">
             <img width="1" height="1" src="/icons/icon-view.svg" alt="Eye icon">
@@ -39,15 +39,6 @@ const HTML = `
 
 const CSS = `
 <style>
-    :root {
-        --soft-blue: hsl(218, 50%, 80%);
-        --cyan: hsl(178, 100%, 50%);
-        --body-bg: hsl(217, 55%, 10%);
-        --card-bg: hsl(214, 50%, 16%);
-        --line: hsl(215, 32%, 27%);
-        --white: hsl(0, 0%, 100%);
-    }
-
     *, *::after, *::before {
 	    box-sizing: border-box;
 	    padding: 0;
@@ -57,6 +48,13 @@ const CSS = `
     :host {
         display: block;
         width: fit-content;
+        --soft-blue: hsl(218, 50%, 80%);
+        --cyan: hsl(178, 100%, 50%);
+        --body-bg: hsl(217, 55%, 10%);
+        --card-bg: hsl(214, 50%, 16%);
+        --line: hsl(215, 32%, 27%);
+        --white: hsl(0, 0%, 100%);
+
         --img-filter: blur(0px);
         --eye-opacity: 0;
     }
