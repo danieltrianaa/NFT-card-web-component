@@ -1,10 +1,10 @@
 const HTML = `
 <section class="card">
     <div class="nft-img-container">
-        <img width="1" height="1" class="nft-img" src="" alt="Illustration image" loading="lazy">
+        <img width="1" height="1" class="nft-img" src="" alt="Illustration image">
 
         <div class="eye-icon">
-            <img width="1" height="1" src="/icons/icon-view.svg" alt="Eye icon" loading="lazy">
+            <img width="1" height="1" src="/icons/icon-view.svg" alt="Eye icon">
         </div>
     </div>
 
@@ -14,14 +14,14 @@ const HTML = `
     <section class="nft-info">
         <div class="ntf__flex-wraper ntf__flex-wraper--eth">
             <div class="ethereum-icon">
-                <img width="11" height="18" src="/icons/icon-ethereum.svg" alt="Ethereum icon" loading="lazy">
+                <img width="11" height="18" src="/icons/icon-ethereum.svg" alt="Ethereum icon">
             </div>
             <p class="price"><span id="price"></span> ETH</p>
         </div>
 
         <div class="ntf__flex-wraper ntf__flex-wraper--clock">
             <div class="clock-icon">
-                <img width="1" height="1" src="/icons/icon-clock.svg" alt="Clock icon" loading="lazy">
+                <img width="1" height="1" src="/icons/icon-clock.svg" alt="Clock icon">
             </div>
             <p class="time"><span id="time"></span> days left</p>
         </div>
