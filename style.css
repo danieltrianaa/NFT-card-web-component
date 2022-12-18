@@ -150,6 +150,21 @@ img {
 	transition: transform 250ms;
 }
 
+/* >>>>>>>>>> SCROLL BAR <<<<<<<<<< */
+::-webkit-scrollbar {
+	width: 12px;
+}
+
+::-webkit-scrollbar-track {
+	background: hsl(214, 33%, 9%);
+}
+
+::-webkit-scrollbar-thumb {
+	background: white;
+	border-radius: 12px;
+}
+
+
 @media (min-width: 760px) {
 	.footer {
 		margin-bottom: 48px;

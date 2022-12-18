@@ -88,6 +88,7 @@ const CSS = `
         opacity: 0;
         box-shadow: 0 0 10px 4px rgba(0, 255, 247, 0.4);
         transition: opacity 750ms;
+        z-index: -1;
     }
     
     .card:hover::after {
