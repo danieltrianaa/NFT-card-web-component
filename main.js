@@ -8,7 +8,7 @@ const hiddeShowSwitch = document.querySelector("toggle-button");
 hiddeShowSwitch.addEventListener("change", () => {
     const styleSheet = document.styleSheets[0];
     if (hiddeShowSwitch.checked) {
-        styleSheet.insertRule("nft-card {--img-filter: blur(15px); --eye-opacity: 1}", 0);
+        styleSheet.insertRule("nft-card {--img-filter: blur(12px); --eye-opacity: 1}", 0);
     } else {
         styleSheet.deleteRule(0);
     }
