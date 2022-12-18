@@ -228,22 +228,10 @@ const CSS = `
 </style>
 `;
 
-/* 
-    img
-    nft-title
-    nft-description
-    price
-    days
-    user-name
-    user-img
-
-*/
-
 const template = document.createElement("template");
 template.innerHTML = CSS + HTML;
 
 export class NFTCard extends HTMLElement {
-
     static get observedAttributes() {
         return ["img", "nft-title", "description", "price", "time", "user-name", "user-img"];
     }

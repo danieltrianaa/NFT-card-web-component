@@ -1,4 +1,4 @@
-/* FONTS */
+/* >>>>>>>>>> FONTS <<<<<<<<<< */
 
 @font-face {
 	font-family: "Outfit";
@@ -34,24 +34,14 @@
 }
 
 :root {
-	/* Primary */
-	--soft-blue: hsl(218, 50%, 80%);
-	--cyan: hsl(178, 100%, 50%);
-
-	/* Neutral */
-	--body-bg: hsl(217, 55%, 10%);
-	--card-bg: hsl(214, 50%, 16%);
-	--line: hsl(215, 32%, 27%);
-	--white: hsl(0, 0%, 100%);
-
-	font-family: "Outfit", Arial, sans-serif;
 	font-weight: 300;
+	font-family: "Outfit", Arial, sans-serif;
 	letter-spacing: 0.4px;
 	font-synthesis: none;
 	text-rendering: optimizeLegibility;
-
 	color-scheme: light dark;
-	background-image: linear-gradient(to right bottom,#0b1628,#0a1323,#08101e,#060d19,#030914);
+
+	background: linear-gradient(to right bottom,#0b1628,#0a1323,#08101e,#060d19,#030914);
 }
 
 *,
@@ -82,8 +72,6 @@ img {
 	height: auto;
 }
 
-/* LAYOUT SECTION */
-
 .toggle {
 	display: grid;
 	place-items: center;
@@ -96,7 +84,7 @@ img {
 	--circle-left-margin-adjustment: 10px;
 	--translate-x-adjustment: 32px;
 
-	--bar-bg: var(--card-bg);
+	--bar-bg: #14263d;
 	--bar-bg-checked: white;
 
 	--circle-bg: white;
@@ -119,13 +107,13 @@ img {
 	margin: 42px 0;
 }
 
-/* FOOTER */
+/* >>>>>>>>>> FOOTER <<<<<<<<<< */
 
 .footer {
 	text-align: center;
 	font-size: 1.6rem;
 	margin-bottom: 42px;
-	color: var(--soft-blue);
+	color: #b3c5e6;
 }
 
 .github-link {
