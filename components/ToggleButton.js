@@ -52,7 +52,7 @@ const CSS = `
     }
 
     .toggle__bar::after {
-        will-change: transform;
+        will-change: transform, background;
 
         content: "";
         position: absolute;
@@ -70,9 +70,6 @@ const CSS = `
     }
 
     .checkbox {
-        -webkit-appearance: none;
-        appearance: none;
-        margin: 0;
 	    display: none;
     }
 
