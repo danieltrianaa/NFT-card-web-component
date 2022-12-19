@@ -30,9 +30,8 @@ I started with a mobile-first approach, completing the HTML structure and styles
 
 <h3>FEATURES</h3>
 
-- Live previews
-- Fullscreen mode
-- Cross platform
+- Highly optimized
+- Responsive Design
 
 <details><summary><code>toggle-button</code></summary>
 
