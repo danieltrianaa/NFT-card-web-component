@@ -1,15 +1,14 @@
-# NFT Card Web Component Gallery
+# NFT CARD WEB COMPONENT GALLERY
 
 This project is a mini-gallery of fake NFT collections where you can show and hide the NFTs with a toggle switch. I created the cards and the toggle switch as reusable [Web Components](https://developer.mozilla.org/en-US/docs/Web/Web_Components) for putting into practice what I've learned.
 
-## Preview
+## PREVIEW
 
-Insert Screen shoot
+![Card blur](https://res.cloudinary.com/docbyxdd1/image/upload/e_loop/v1671423118/projects/Github/NFT-card-web-component-gallery/nft-card-blur.webp)
 
-## Deployment
+## DEPLOYMENT
 
-- [Go to repository](https://your-solution-url.com)
-- [Go to Live Site](https://your-live-site-url.com)
+[Go to Live Site](https://your-live-site-url.com)
 
 ## Work flow
 
