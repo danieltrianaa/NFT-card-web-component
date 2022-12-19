@@ -1,6 +1,6 @@
 # NFT Card Web Component Gallery
 
-This project is a mini-gallery of fake NFT collections, where you can show and hide the images with a toggle switch. I created the cards and the toggle switch as a reusable [Web Components](https://developer.mozilla.org/en-US/docs/Web/Web_Components) for putting into practice what I've learned.
+This project is a mini-gallery of fake NFT collections where you can show and hide the NFTs with a toggle switch. I created the cards and the toggle switch as reusable [Web Components](https://developer.mozilla.org/en-US/docs/Web/Web_Components) for putting into practice what I've learned.
 
 ## Preview
 
