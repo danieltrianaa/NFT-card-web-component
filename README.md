@@ -130,10 +130,3 @@ setter and getters
 Bind, call , apply
 Life cycle of a component
 Optimization tricks, boxshadow, local fonts
-
-## Feedback
-
-If you have any feedback, please reach out to us at fake@fake.com
-
-This project was inspired on the [NFT preview card component](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U) challenge on Frontend Mentors.
-
