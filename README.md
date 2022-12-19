@@ -30,7 +30,40 @@ I started with a mobile-first approach, completing the HTML structure and styles
 
 <h3>FEATURES</h3>
 
-You could add a new toogle switch by adding the custom tag 
+You could add a new toggle switch by adding the custom tag `<toggle-button>`
+
+```html
+<toggle-button></toggle-button>
+```
+
+The default view is this, then you could tweak it with specific CSS custom properties and HTML attributes.
+
+![Toogle switch](https://res.cloudinary.com/docbyxdd1/image/upload/v1671426351/projects/Github/NFT-card-web-component-gallery/default-toggle-button_kqd2vn.webp)
+![Toggle switch active](https://res.cloudinary.com/docbyxdd1/image/upload/v1671427372/projects/Github/NFT-card-web-component-gallery/default-active_c9jyk1.webp)
+
+For having something like this, the code would be
+
+![Toogle switch cutomized](https://res.cloudinary.com/docbyxdd1/image/upload/v1671427118/projects/Github/NFT-card-web-component-gallery/custom-toggle-button_e6vzaz.webp)
+![Toggle switch cutomized active](https://res.cloudinary.com/docbyxdd1/image/upload/v1671427118/projects/Github/NFT-card-web-component-gallery/custom-toggle-button-active_baohgl.webp)
+
+```html
+<toggle-button class="toggle-btn" left-word="Show" right-word="Hide"></toggle-button>
+```
+
+```css
+.toggle-btn {
+  --bar-width: 70px;
+  --bar-height: 32px;
+  --circle-dimensions: 20px;
+  --circle-left-margin-adjustment: 10px;
+  --translate-x-adjustment: 32px;
+  --bar-bg: #14263d;
+  --bar-bg-checked: white;
+  --circle-bg: white;
+  --circle-bg-checked: black;
+}
+```
+
 - Live previews
 - Fullscreen mode
 - Cross platform
