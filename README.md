@@ -12,12 +12,6 @@ This project is a mini-gallery of fake NFT collections where you can show and hi
 
 <hr/>
 
-<h3>WORK FLOW</h3>
-
-I started with a mobile-first approach, completing the HTML structure and styles for both of the components. Then I used the Web Components APIs to create my custom elements (tags) and set their attributes and CSS custom properties to make them highly customizable. After that, I added the show/hide functionality and finally started to optimize the page for deployment.
-
-<hr/>
-
 <h3>BUILT WITH</h3>
 
 - HTML
@@ -28,9 +22,15 @@ I started with a mobile-first approach, completing the HTML structure and styles
 
 <hr/>
 
+<h3>WORK FLOW</h3>
+
+I started with a mobile-first approach, completing the HTML structure and styles for both of the components. Then I used the Web Components APIs to create my custom elements (tags) and set their attributes and CSS custom properties to make them highly customizable. After that, I added the show/hide functionality and finally started to optimize the page for deployment.
+
+<hr/>
+
 <h3>FEATURES</h3>
 
-- Light/dark mode toggle
+You could add a new toogle switch by adding the custom tag 
 - Live previews
 - Fullscreen mode
 - Cross platform
