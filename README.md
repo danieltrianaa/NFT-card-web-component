@@ -12,30 +12,34 @@ This project is a mini-gallery of fake NFT collections where you can show and hi
 
 <hr/>
 
-## Work flow
+<h3>WORK FLOW</h3>
 
-- Mobile-first workflow
+I started with a mobile-first approach, completing the HTML structure and styles for both of the components. Then I used the Web Components APIs to create my custom elements (tags) and set their attributes and CSS custom properties to make them highly customizable. After that, I added the show/hide functionality and finally started to optimize the page for deployment.
 
-## Built with
+<hr/>
+
+<h3>BUILT WITH</h3>
 
 - HTML
 - CSS
 - Vanilla JavaScript
-- ViteJS
+- Web Component APIs
+- Vite
 
+<hr/>
 
-## Features
+<h3>FEATURES</h3>
 
 - Light/dark mode toggle
 - Live previews
 - Fullscreen mode
 - Cross platform
 
-## Optimizations
+<h3>OPTIMIZATIONS</h3>
 
 What optimizations did you make in your code? E.g. refactors, performance improvements, accessibility
 
-## Learned
+<h3>LEARNED</h3>
 
 I learned a lot about meta tags, OpenGraph and Twitter Cards
 Grid and flex box
