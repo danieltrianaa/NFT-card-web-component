@@ -6,7 +6,7 @@ This project is a mini-gallery of fake NFT collections where you can show and hi
 
 <h3>PREVIEW AND DEPLOYMENT</h3>
 
-![Go to Live Site!](https://nft-card-web-component.netlify.app/)
+[Go to Live Site!](https://nft-card-web-component.netlify.app/)
 
 ![If the gift doesn't appear, please reload the page](https://res.cloudinary.com/docbyxdd1/image/upload/r_12/e_loop/v1671423118/projects/Github/NFT-card-web-component-gallery/nft-card-blur.webp)
 
