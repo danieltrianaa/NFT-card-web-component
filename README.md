@@ -30,8 +30,17 @@ I started with a mobile-first approach, completing the HTML structure and styles
 
 <h3>FEATURES</h3>
 
-- Highly optimized
 - Responsive Design
+
+<details><summary><b>Highly optimized<b></summary>
+
+####
+
+![If the gift doesn't appear, please reload the page](https://res.cloudinary.com/docbyxdd1/image/upload/v1671438099/r_12/e_loop/projects/Github/NFT-card-web-component-gallery/speed-insights_njjm9n.webp)
+
+</details>
+
+
 
 <details><summary><code>toggle-button</code></summary>
 
@@ -89,7 +98,7 @@ I started with a mobile-first approach, completing the HTML structure and styles
   
   For having something like this, you'll just need the following code
   
-  ![Astronaut card](https://res.cloudinary.com/docbyxdd1/image/upload/v1671433446/projects/Github/NFT-card-web-component-gallery/astronaut-screen_cizcej.webp)
+  ![Astronaut card](https://res.cloudinary.com/docbyxdd1/image/upload/r_12/v1671433446/projects/Github/NFT-card-web-component-gallery/astronaut-screen_cizcej.webp)
   
   ```html
     <nft-card
@@ -106,10 +115,6 @@ I started with a mobile-first approach, completing the HTML structure and styles
 </details>
   
 <hr/>
-
-<h3>OPTIMIZATIONS</h3>
-
-What optimizations did you make in your code? E.g. refactors, performance improvements, accessibility
 
 <h3>LEARNED</h3>
 
