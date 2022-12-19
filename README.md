@@ -32,7 +32,7 @@ I started with a mobile-first approach, completing the HTML structure and styles
 
 - Responsive Design
 
-<details><summary><b>Highly optimized<b></summary>
+<details><summary><b>Highly optimized</b></summary>
 
 ####
 
@@ -88,7 +88,7 @@ I started with a mobile-first approach, completing the HTML structure and styles
 
 <details><summary><code>nft-card</code></summary>
   
-  <hr/>
+  ####
   
   The nft-card component is not as customizable as the toggle switch component, but you can modify its content with the following HTML attributes
   
