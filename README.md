@@ -1,6 +1,6 @@
-# NFT Card Web Component
+# NFT Card Web Component Gallery
 
-This is a solution to the [NFT preview card component](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U) challenge on Frontend Mentors. I create the card as a reusable web component for putting in practice what i've learned. Also i put in practice optimization and ...
+This project is a mini-gallery of fake NFT collections, where you can show and hide the images with a toggle switch. I created the cards and the toggle switch as a reusable [Web Components](https://developer.mozilla.org/en-US/docs/Web/Web_Components) for putting into practice what I've learned.
 
 ## Preview
 
@@ -53,4 +53,5 @@ Optimization tricks, boxshadow, local fonts
 
 If you have any feedback, please reach out to us at fake@fake.com
 
+This project was inspired on the [NFT preview card component](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U) challenge on Frontend Mentors.
 
