@@ -30,7 +30,11 @@ I started with a mobile-first approach, completing the HTML structure and styles
 
 <h3>FEATURES</h3>
 
-You could add a new toggle switch by adding the custom tag `<toggle-button>`
+<details><summary><code>toggle-button</code></summary>
+
+#### 
+
+You could add a new toggle switch by adding the custom tag `<toggle-button>`.
 
 ```html
 <toggle-button></toggle-button>
@@ -52,17 +56,23 @@ For having something like this, the code would be
 
 ```css
 .toggle-btn {
-  --bar-width: 70px;
-  --bar-height: 32px;
-  --circle-dimensions: 20px;
-  --circle-left-margin-adjustment: 10px;
-  --translate-x-adjustment: 32px;
-  --bar-bg: #14263d;
-  --bar-bg-checked: white;
-  --circle-bg: white;
-  --circle-bg-checked: black;
+--bar-width: 70px;
+--bar-height: 32px;
+--circle-dimensions: 20px;
+--circle-left-margin-adjustment: 10px;
+--translate-x-adjustment: 32px;
+--bar-bg: #14263d;
+--bar-bg-checked: white;
+--circle-bg: white;
+--circle-bg-checked: black;
 }
 ```
+
+Also, it has a custom-checked attribute with its respective getter and setter methods. That way, it can actually be useful and used for interactivity.
+Here is what happens in the browser when the toggle switch is clicked "On" and "Off".
+
+![Checked](https://res.cloudinary.com/docbyxdd1/image/upload/e_loop/v1671432081/projects/Github/NFT-card-web-component-gallery/cheked-gif_uluvdc.webp)
+</details>
 
 - Live previews
 - Fullscreen mode
