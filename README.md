@@ -113,20 +113,3 @@ I started with a mobile-first approach, completing the HTML structure and styles
   ```
   
 </details>
-  
-<hr/>
-
-<h3>LEARNED</h3>
-
-I learned a lot about meta tags, OpenGraph and Twitter Cards
-Grid and flex box
-Lazy loading
-Custom properties
-Vite
-Netlify
-POO
-this keyword
-setter and getters
-Bind, call , apply
-Life cycle of a component
-Optimization tricks, boxshadow, local fonts
